@@ -1,0 +1,5 @@
+name: "Update Formula"
+author: "lautis"
+runs:
+  using: "docker"
+  image: "Dockerfile"

@@ -1,0 +1,16 @@
+name: Update Homebrew formula
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+
+jobs:
+  formula:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./.github/actions/update-formula
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
