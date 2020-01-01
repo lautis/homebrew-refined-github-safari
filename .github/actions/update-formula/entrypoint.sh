@@ -2,7 +2,7 @@
 set -eu
 
 echo "Updating Homebrew Formula..."
-ruby $(dirname $0)/entrypoint.rb
+bundle exec ruby $(dirname $0)/entrypoint.rb
 
 echo "Pushing changes"
 remote_repo="git+ssh://git@github.com/${GITHUB_REPOSITORY}.git"
