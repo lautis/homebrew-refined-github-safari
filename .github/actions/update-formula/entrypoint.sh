@@ -1,4 +1,6 @@
 #!/bin/sh
+set -eu
+
 echo "Updating Homebrew Formula..."
 ruby $(dirname $0)/entrypoint.rb
 
