@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine
+FROM ruby:2.7-alpine
 RUN apk add --update git openssh coreutils
 RUN gem install bundler
 
