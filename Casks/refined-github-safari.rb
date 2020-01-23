@@ -1,8 +1,8 @@
 cask "refined-github-safari" do
-  version "2.0.25"
-  sha256 "90e368a9cb85c83152a3b584c492d36b3f842b108f1a42a5159dac776b65f799"
+  version "2.0.26"
+  sha256 "03c1a64c403dcbe3a27065582eca1b80f3cb97ffa918b4a6a0394cc31914db50"
 
-  url "https://github.com/lautis/refined-github-safari/releases/download/v2.0.25/Refined-GitHub-for-Safari.zip"
+  url "https://github.com/lautis/refined-github-safari/releases/download/v2.0.26/Refined-GitHub-for-Safari.zip"
   appcast "https://github.com/lautis/refined-github-safari/releases.atom"
   name "refined-github-safari"
   homepage "https://github.com/lautis/refined-github-safari"
